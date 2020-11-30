@@ -1,0 +1,97 @@
+body{
+  color: #222222;
+}
+
+nav{
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #D3D3D3;
+  text-align: center;
+}
+
+ul{
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family:"roboto", sans-serif;
+}
+
+nav li{
+  display: inline-block;
+  text-align: center;
+  padding-right: 5px;
+  margin-left: 0px;
+}
+
+nav a:hover{
+  background-color:#7EC0EE;
+}
+a:link{
+  background-color: #d3d3d3;
+}
+a:visited{
+  background-color: #fff;}
+
+a:active{
+background-color: #7EC0EE; }
+
+
+h1{text-align: center;
+  font-family: "sansita swashed","roboto", sans-serif;
+  font-size: 80px;
+  color: #7EC0EE;}
+
+h2{font-family: "roboto",sans-serif;
+color:#0B71B4  ;}
+
+h3, body {font-family: "roboto", sans-serif;}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+.row:after {
+
+    display: table;
+    clear: both;
+  }
+  .img-with-text {
+    text-align: center;
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
+div.contactme h2{text-align:center;}
+
+div.aboutme h2,p{margin-left: 40px;
+margin-right: 0px;
+}
+
+.center img{
+  display: block;
+  width: 100%;
+  align-content: center;
+}
+img{padding-top: 30px;}
+
+div.aboutme h2{padding-top: 10px;}
+
+p{line-height: 25px;
+width: 500px;}
+
+div.contact ul{ display: flex;
+justify-content: space-between;
+list-style-type: none;
+align-items: center;
+padding-right: 40px;
+padding-top: 10px;}
+
+li{ text-align:center;
+padding-top: 10px;}
+
+li img{display: block;
+padding-bottom: 15px;}
