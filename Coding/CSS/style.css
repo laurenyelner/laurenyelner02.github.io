@@ -2,16 +2,37 @@ body{
   color: #222222;
 }
 
-div.intro p{
-border: 2px solid #222;
-padding: 5px;
-}
+
 #masthead{
   grid-area:masthead;
   padding-left: 35px;
 
 }
 
+#content1::after{
+    content: "\a";
+    white-space: pre;
+}
+#content2::after{
+    content: "\a";
+    white-space: pre;
+}
+#content3::after{
+    content: "\a";
+    white-space: pre;
+}
+#content4::after{
+    content: "\a";
+    white-space: pre;
+}
+#content5::after{
+    content: "\a";
+    white-space: pre;
+}
+#content6::after{
+    content: "\a";
+    white-space: pre;
+}
 
 #footer{
   grid-area: footer;
@@ -32,7 +53,7 @@ div.agepct td{
   padding-right: 50px;
 }
 h1{
-  font-family: "arial narrow", "arial black", "sans serif";
+  font-family: "arial narrow", "arial black", sans-serif;
   font-size: 80px;
   color: #0038B8;
   text-decoration: underline;
